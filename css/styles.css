@@ -19,6 +19,18 @@ body {
     padding: 2em;
     font-size: 1.25em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(212deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+h1 {
+    padding: 0 35px;
+    margin: 0 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bio {
+    padding: 0 35px;
+    margin: 0 10px;
 }
 
 .wrapper {
@@ -42,10 +54,14 @@ body {
 
 p {
     font-size: 1em;
-    color: white;
 }
 
 div {
-    background: cornflowerblue;
     padding: 0 30px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
 }
